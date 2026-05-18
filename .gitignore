@@ -2,6 +2,7 @@ venv/
 **pycache**/
 *.pyc
 
+#chroma_db/
 
 .env
 
