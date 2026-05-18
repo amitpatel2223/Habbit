@@ -1,0 +1,12 @@
+venv/
+**pycache**/
+*.pyc
+
+chroma_db/
+
+.env
+
+.idea/
+.vscode/
+
+*.sqlite3

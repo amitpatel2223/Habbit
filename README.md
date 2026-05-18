@@ -1,0 +1,2 @@
+del requirements.txt
+pip freeze | Out-File -Encoding utf8 requirements.txt
