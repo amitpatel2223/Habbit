@@ -15,12 +15,12 @@ app = FastAPI(title="Daily Habit Tracker API", description="Habit Tracking API")
 #app.include_router(habit_log_router)
 app.include_router(ai_router)
 
-from controllers.ai_controller import router as ai_router
-from ai.initialize_data import initialize_vector_db
-@app.on_event("startup")
-def startup_event():
+# from controllers.ai_controller import router as ai_router
+# from ai.initialize_data import initialize_vector_db
+# @app.on_event("startup")
+# def startup_event():
 
-    initialize_vector_db()
+#     initialize_vector_db()
 
 
 
